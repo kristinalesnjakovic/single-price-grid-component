@@ -1,0 +1,181 @@
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  font-size: 1em;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.3em;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1em;
+  margin-top: 0;
+}
+
+p {
+  color: hsl(204, 43%, 93%);
+  line-height: 1.8;
+  margin: 0;
+}
+
+button {
+  border-color: transparent;
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(0, 0%, 100%);
+  font-family: 'Karla', sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin: 25px auto 0 auto;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 32px -10px #0667a7;
+}
+
+footer p {
+  font-size: 0.6em;
+  color: hsl(234, 12%, 34%);
+  text-align: center;
+  margin: 50px 0 10px;
+}
+
+a {
+  color: hsl(229, 6%, 66%);
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(179, 62%, 43%);
+}
+
+.main-container {
+  margin: 80px 20px 20px 20px;
+  box-shadow: 0 0 32px -20px #0667A7;
+}
+
+.card {
+  padding: 30px;
+}
+
+.community {
+  background-color: hsl(0, 0%, 100%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.community h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+.community p {
+  color: hsl(218, 22%, 67%);
+  font-size: 0.8em;
+}
+
+.price {
+  font-size: 1.8em;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.month {
+  color: hsl(179, 100%, 40%);
+}
+
+.subscription {
+  background-color: hsl(179, 62%, 43%);
+  padding-bottom: 20px;
+}
+
+.subscription p {
+  font-size: 0.9em;
+}
+
+.why-us {
+  background-color: hsl(179, 100%, 40%);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.why-us p {
+  font-size: 0.85em;
+  padding-right: 70px;
+  line-height: 1.5;
+}
+
+@media (min-width:600px) {
+  .main-container {
+    width: 70%;
+    margin: 50px auto;
+  }
+}
+
+@media (min-width:1000px) {
+  h1 {
+    font-size: 1.5em;
+    margin-top: 5px;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  button {
+    font-size: 1em;
+  }
+
+  footer p {
+    margin-top: 100px;
+  }
+
+  .main-container {
+    width: 70%;
+    margin: 120px auto 50px;
+  }
+
+  .second-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .community p {
+    font-size: 0.9em;
+    padding-right: 75px;
+  }
+
+  .price {
+    font-size: 1.9em;
+  }
+
+  .subscription {
+    border-bottom-left-radius: 5px;
+    padding: 30px;
+  }
+
+  .why-us {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+@media (min-width:1300px) {
+  .main-container {
+    width: 60%;
+  }
+}
+
+@media (min-width:1440px) {
+  .main-container {
+    width: 45%;
+  }
+
+  .card {
+    padding: 40px;
+  }
+}
